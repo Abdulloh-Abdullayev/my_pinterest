@@ -26,8 +26,8 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage>
-    with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
+
   late TabController _tabController;
   late final ScrollController _scrollController = ScrollController();
   late int _page = 1;
